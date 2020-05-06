@@ -17,7 +17,7 @@
       <input type="text" placeholder="Port of Loading">
       <input type="text" placeholder="Port of Discharge">
 
-      <button>Search</button>
+      <button id="search-btn">Search</button>
     </div>
 
     <div>
@@ -29,46 +29,14 @@
           <tr>
             <th scope="row">Port of Loading</th>
             <th scope="col">Port of Discharge</th>
-            <th scope="col">Terminal</th>
             <th scope="col">Vessel</th>
             <th scope="col">Vovage</th>
             <th scope="col">Est. Transit Time</th>            
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td scope="row">Singapore 1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <td scope="row">Singapore 2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <td scope="row">Singapore 3</td>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <td scope="row">Singapore 4</td>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
+      
+        <tbody id="table-data"></tbody>
+
       </table>
       
 
@@ -89,5 +57,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js">></script>
+    <script src="script.js"></script>
   </body>
 </html>
